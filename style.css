@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.main {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text__1 {
+    color: #000000;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px 70px 50px 70px;
+}
+
+.card {
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.dz__image__b {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.text__b {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
